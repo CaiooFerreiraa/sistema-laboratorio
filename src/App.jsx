@@ -6,6 +6,15 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  // Código completo para testar a requisição
+  async function name() {
+    const res = await fetch('http://localhost:9090/system/hello');
+    return res.text();
+  }
+
+  name().then(console.log);
+
+
   return (
     <>
       <div>
