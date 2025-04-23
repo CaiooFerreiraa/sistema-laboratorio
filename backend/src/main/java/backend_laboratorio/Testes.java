@@ -1,0 +1,23 @@
+package backend_laboratorio;
+
+public enum Testes {
+  ALONGAMENTO_TRACAO,
+    RASGAMENTO,
+    DUREZA,
+    ABRASAO_AKRON,
+    ABRASAO_DIN,
+    DENSIDADE,
+    ENVELHECIMENTO,
+    BLOOMING,
+    RESISTENCIA_LAVAGEM,
+    RESILIENCIA,
+    CS,
+    ENCOLHIMENTO,
+    QUIMICO,
+    TEOR_GEIS,
+    TEOR_UMIDADE,
+    TEOR_SILICA,
+    RESINA_EVA,
+    DESCOLAGEM,
+    HIDROLISE
+}

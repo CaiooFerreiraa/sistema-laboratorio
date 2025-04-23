@@ -11,7 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(@SuppressWarnings("null") CorsRegistry registry) {
         registry.addMapping("/**") // Permitir CORS em todos os endpoints
-                .allowedOrigins("http://localhost:5147") // Origem permitida
+                .allowedOrigins("http://localhost:8080") // Origem permitida
                 .allowedMethods("GET", "POST", "PUT", "DELETE") // Métodos permitidos
                 .allowedHeaders("*") // Cabeçalhos permitidos
                 .allowCredentials(true); // Permitir credenciais
