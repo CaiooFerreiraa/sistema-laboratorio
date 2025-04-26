@@ -6,15 +6,6 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-  // Código completo para testar a requisição
-  async function name() {
-    const res = await fetch('http://localhost:9090/system/hello');
-    return res.text();
-  }
-
-  name().then(console.log);
-
-
   return (
     <>
       <div>
@@ -37,6 +28,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <a href="/cad_amostra">Cadastrar amostra</a>
     </>
   )
 }
