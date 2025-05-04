@@ -23,6 +23,20 @@ public class AmostraPrototipo extends Amostra {
         this.mcs = mcs;
     }
 
-    // Getters e setters
+    @Override
+    public String toString() {
+        return "AmostraPrototipo(" +
+                "dataFabricacao=" + dataFabricacao +
+                ", numeroLote=" + numeroLote +
+                ", marca=" + marca +
+                ", responsavel=" + responsavel +
+                ", mcs=" + mcs +
+                ", numberRef=" + numberRef +
+                ", modeloRef=" + modeloRef +
+                ", testes=" + testes +
+                ")";
+    }
+    
+
 }
 

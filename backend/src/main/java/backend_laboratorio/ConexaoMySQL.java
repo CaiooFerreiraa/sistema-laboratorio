@@ -45,10 +45,6 @@ public class ConexaoMySQL {
             }
         }
     }
-
-    public static void main(String[] args) {
-        inserir("João da Silva");
-    }
 }
 
 

@@ -6,8 +6,6 @@ import java.util.List;
 import backend_laboratorio.Amostra;
 import backend_laboratorio.Testes;
 
-import java.time.LocalDate;
-
 public class AmostraBorracha extends Amostra {
     private LocalDate dataAdicaoEnxofre;
     private String numeroPedido;
@@ -18,6 +16,17 @@ public class AmostraBorracha extends Amostra {
         this.numeroPedido = numeroPedido;
     }
 
-    // Getters e setters
+    @Override
+    public String toString() {
+        return "AmostraBorracha(" +
+                "dataAdicaoEnxofre=" + dataAdicaoEnxofre +
+                ", numeroPedido=" + numeroPedido +
+                ", numberRef=" + numberRef +
+                ", modeloRef=" + modeloRef +
+                ", testes=" + testes +
+                ")";
+    }
+    
+
 }
 

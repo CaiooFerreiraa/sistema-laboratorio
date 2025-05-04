@@ -27,5 +27,20 @@ public class AmostraPreFabricado extends Amostra {
         this.esteira = esteira;
     }
 
-    // Getters e setters
+    @Override
+    public String toString() {
+        return "AmostraPreFabricado(" +
+                "dataProducao=" + dataProducao +
+                ", requisitante=" + requisitante +
+                ", lider=" + lider +
+                ", coordenador=" + coordenador +
+                ", gerente=" + gerente +
+                ", esteira=" + esteira +
+                ", numberRef=" + numberRef +
+                ", modeloRef=" + modeloRef +
+                ", testes=" + testes +
+                ")";
+    }
+    
+
 }

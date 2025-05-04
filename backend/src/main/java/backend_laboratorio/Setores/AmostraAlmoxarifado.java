@@ -14,5 +14,15 @@ public class AmostraAlmoxarifado extends Amostra {
         this.dataEntrega = dataEntrega;
     }
 
-    // Getters e setters
+    @Override
+    public String toString() {
+        return "AmostraAlmoxarifado(" +
+                "dataEntrega=" + dataEntrega +
+                ", numberRef=" + numberRef +
+                ", modeloRef=" + modeloRef +
+                ", testes=" + testes +
+                ")";
+    }
+    
+
 }

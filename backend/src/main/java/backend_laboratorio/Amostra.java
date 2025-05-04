@@ -12,4 +12,12 @@ public abstract class Amostra {
         this.modeloRef = modeloRef;
         this.testes = testes;
     }
+
+    @Override
+    public String toString() {
+        return "Amostra(numberRef=" + numberRef + ", modeloRef=" + modeloRef + ", testes=" + testes + ")";
+    }
+    
+
+
 }
